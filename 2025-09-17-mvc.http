@@ -1,0 +1,9 @@
+@host = http://localhost:5190
+
+GET {{host}}/weather
+Accept: application/json
+
+### GET ALL VIDEOS
+
+GET {{host}}/api/video/list
+Accept: application/json
